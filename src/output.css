@@ -353,4 +353,9 @@ body {
   font-size: large;
 }
 
+.sideber {
+  float: left;
+  margin-top: 8px;
+}
+
 /*# sourceMappingURL=output.css.map */

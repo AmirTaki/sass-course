@@ -186,3 +186,22 @@ body{
 .text-alert {
    @include scopetch($color: red);
 }
+
+// function syntax 
+// @function NameFunction (){}
+
+
+@function pow($base, $exponent) {
+  
+  $result:1;
+  @for $_ from 1 through $exponent {
+    $result: $result * $base;
+  }
+  @return $result;
+} 
+
+.sideber {
+  float : left;
+  margin-top: pow(2, 3)*1px;
+}
+
