@@ -232,3 +232,16 @@ body{
   @extend %msg-shard;
   border-color: green;
 }
+
+
+p{
+  color: white;
+}
+body {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-flow: column nowrap;
+  margin-left: 40%;
+
+}
