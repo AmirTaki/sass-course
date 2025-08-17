@@ -1,3 +1,4 @@
+// partials
 @import "varibles";
 
 h1 {
@@ -30,19 +31,20 @@ nav {
 
 
 
-// nav {
-//   ul {
-//     margin: 0;
-//     padding: 0;
-//     list-style: none;
+// select
+.btn {
+  &:hover {
+    background-color: aquamarine;
+  }
+}
 
-//     li {
-//       display: inline;
+.texthover{
+  width: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-//       a{
-//         display: block;
-//         text-decoration: none;
-//       }
-//     }
-//   }
-// }
+  &copy{
+    opacity: .3;;
+    font-size: medium;
+  }
+}
+
