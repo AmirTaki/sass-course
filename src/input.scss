@@ -1,26 +1,11 @@
-// $font-stack: Helvetica, sans-serif;
-// $primary-color: #333;
-
-// varible : syntax
-// $ nameVarible : value;
-
-
-$mycolor :red;  // varible global
+@import "varibles";
 
 h1 {
   color : $mycolor
 }
 
 p{
-  $mycolor : rgb(28, 133, 182);  // varible local
+  $mycolor : rgb(28, 133, 182);  
   color: $mycolor
 }
 
-h2 {
-  $mycolor: green!global;  // convert varibale local to barible global
-  color: $mycolor
-}
-
-h3 {
-  color: $mycolor
-}
