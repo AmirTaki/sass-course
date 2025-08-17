@@ -151,3 +151,38 @@ body{
   }
 
 }
+
+
+// syntax mixin
+// mixin name
+
+@mixin btn {
+  background-color: #ffc0cb;
+  color: black;
+  font-size: medium;
+  font-family:  'Courier New', Courier, monospace;
+}
+
+.btn-info {
+  @include btn;
+}
+
+.btn-alert {
+  @include btn;
+}
+
+// mixin  name($varible)
+
+@mixin scopetch($color : gray){
+  background-color: $color;
+  color: blue;
+  font-size: large;
+}
+
+.text-scopetch{
+  @include scopetch;
+}
+
+.text-alert {
+   @include scopetch($color: red);
+}

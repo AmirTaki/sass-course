@@ -327,4 +327,30 @@ body {
   color: blue;
 }
 
+.btn-info {
+  background-color: #ffc0cb;
+  color: black;
+  font-size: medium;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.btn-alert {
+  background-color: #ffc0cb;
+  color: black;
+  font-size: medium;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.text-scopetch {
+  background-color: gray;
+  color: blue;
+  font-size: large;
+}
+
+.text-alert {
+  background-color: red;
+  color: blue;
+  font-size: large;
+}
+
 /*# sourceMappingURL=output.css.map */
