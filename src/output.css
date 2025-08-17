@@ -339,6 +339,7 @@ body {
   color: black;
   font-size: medium;
   font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
 }
 
 .text-scopetch {
@@ -356,6 +357,20 @@ body {
 .sideber {
   float: left;
   margin-top: 8px;
+}
+
+.success, .warning, .error {
+  border: 1px solid #ffc0cb;
+  padding: 20px;
+  color: aqua;
+}
+
+.warning {
+  border-color: yellow;
+}
+
+.success {
+  border-color: green;
 }
 
 /*# sourceMappingURL=output.css.map */

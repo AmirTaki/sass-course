@@ -169,6 +169,7 @@ body{
 
 .btn-alert {
   @include btn;
+  cursor: pointer;
 }
 
 // mixin  name($varible)
@@ -205,3 +206,29 @@ body{
   margin-top: pow(2, 3)*1px;
 }
 
+
+
+// extend
+// syntax extend : 
+// % nameExtend
+
+%msg-shard {
+  border: 1px solid #ffc0cb;
+  padding: 20px;
+  color: aqua;
+}
+
+.error {
+  @extend %msg-shard;
+}
+
+.warning {
+  @extend %msg-shard;
+  border-color: yellow
+}
+
+
+.success {
+  @extend %msg-shard;
+  border-color: green;
+}
