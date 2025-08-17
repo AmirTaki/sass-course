@@ -6,4 +6,17 @@ p {
   color: rgb(28, 133, 182);
 }
 
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline;
+}
+nav a {
+  display: block;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=output.css.map */

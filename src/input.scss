@@ -9,3 +9,40 @@ p{
   color: $mycolor
 }
 
+// nested in sass
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: inline;
+
+  }
+  a{
+    display: block;
+    text-decoration: none;
+
+  }
+}
+
+
+
+// nav {
+//   ul {
+//     margin: 0;
+//     padding: 0;
+//     list-style: none;
+
+//     li {
+//       display: inline;
+
+//       a{
+//         display: block;
+//         text-decoration: none;
+//       }
+//     }
+//   }
+// }
