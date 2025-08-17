@@ -41,7 +41,6 @@ nav {
 
 
   // use math
-  // border-radius: $border/4;
   border-radius: math.div(20, 4); 
   border-radius: math.div($border, 2); 
 
@@ -68,4 +67,5 @@ nav {
 
 
 
-
+@debug math.floor(2.8);
+@debug math.div(10, 2)
