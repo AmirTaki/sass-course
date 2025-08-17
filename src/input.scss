@@ -1,5 +1,10 @@
+// match library
+@use 'sass:math';
+
 // partials
 @import "varibles";
+
+
 
 h1 {
   color : $mycolor
@@ -33,6 +38,19 @@ nav {
 
 // select
 .btn {
+
+
+  // use math
+  // border-radius: $border/4;
+  border-radius: math.div(20, 4); 
+  border-radius: math.div($border, 2); 
+
+
+  border-top: math.floor(5.7px);
+  height: math.max(2px, 10px, 30px);
+
+  width:  math.min(200px , 300px, 500px);
+
   &:hover {
     background-color: aquamarine;
   }
@@ -47,4 +65,7 @@ nav {
     font-size: medium;
   }
 }
+
+
+
 
