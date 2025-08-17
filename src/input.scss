@@ -68,4 +68,31 @@ nav {
 
 
 @debug math.floor(2.8);
-@debug math.div(10, 2)
+@debug math.div(10, 2);
+
+
+// map function
+// get
+@debug map-get($colors , "red" );
+@debug map-get($colors,  "green" );
+// key has
+@debug map-has-key($colors, "black" );
+@debug map-has-key($colors, "blue" );
+
+// remove key
+@debug map-remove($colors, "black" );
+
+
+//merge
+@debug map-merge($colors , ("pink": #ffc0cb));
+
+// keys
+@debug map-keys($colors);
+
+// values
+@debug map-values($colors);
+
+// compile
+body{
+  background-color:  map-get($colors, "black");
+}
