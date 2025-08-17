@@ -1,7 +1,17 @@
-body {
-  font: 100% Helvetica, sans-serif;
-  color: #333;
-  background-color: #333;
+h1 {
+  color: red;
+}
+
+p {
+  color: rgb(28, 133, 182);
+}
+
+h2 {
+  color: green;
+}
+
+h3 {
+  color: green;
 }
 
 /*# sourceMappingURL=output.css.map */
